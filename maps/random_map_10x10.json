@@ -1,0 +1,506 @@
+{
+  "width": 10,
+  "height": 10,
+  "hexes": {
+    "0000": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0100": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0200": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0300": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0400": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0500": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0600": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0700": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0800": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0900": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0001": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0101": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0201": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0301": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0401": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0501": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0601": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0701": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0801": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0901": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0002": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0102": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0202": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0302": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0402": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0502": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0602": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0702": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0802": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0902": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0003": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0103": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0203": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0303": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0403": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0503": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0603": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0703": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0803": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0903": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0004": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0104": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0204": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0304": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0404": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0504": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0604": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0704": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0804": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0904": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0005": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0105": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0205": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0305": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0405": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0505": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0605": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0705": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0805": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0905": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0006": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0106": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0206": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0306": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0406": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0506": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0606": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0706": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0806": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0906": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0007": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0107": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0207": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0307": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0407": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0507": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0607": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0707": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0807": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0907": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0008": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0108": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0208": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0308": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0408": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0508": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    },
+    "0608": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0708": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0808": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0908": {
+      "terrain": "CLEAR",
+      "move_cost": 1,
+      "defense_bonus": 0
+    },
+    "0009": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0109": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0209": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0309": {
+      "terrain": "HILL",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0409": {
+      "terrain": "WATER",
+      "move_cost": 99,
+      "defense_bonus": 0
+    },
+    "0509": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0609": {
+      "terrain": "FOREST",
+      "move_cost": 2,
+      "defense_bonus": 1
+    },
+    "0709": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0809": {
+      "terrain": "URBAN",
+      "move_cost": 2,
+      "defense_bonus": 2
+    },
+    "0909": {
+      "terrain": "SWAMP",
+      "move_cost": 3,
+      "defense_bonus": 0
+    }
+  }
+}
