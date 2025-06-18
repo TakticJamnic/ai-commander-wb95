@@ -11,7 +11,6 @@ def build_vocab_from_examples(input_path):
 
     token_set = set()
 
-    # Tymczasowa instancja tokenizer'a bez vocab
     tokenizer = Wb95Tokenizer(vocab_path=None)
 
     for cmd in commands:

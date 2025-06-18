@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "authors": [
+      "AutoGen"
+    ],
+    "name": "Random Map",
+    "width": 10,
+    "height": 10
+  },
+  "terrain": {
+    "FOREST": {
+      "move_cost": {
+        "INF": 1,
+        "ATV": 2
+      },
+      "defence_bonus": 2
+    },
+    "CLEAR": {
+      "move_cost": {
+        "INF": 1,
+        "ATV": 1
+      }
+    }
+  },
+  "hexes": {
+    "0101": "CLEAR",
+    "0102": "CLEAR",
+    "0103": "FOREST",
+    "0104": "CLEAR",
+    "0105": "CLEAR",
+    "0106": "FOREST",
+    "0107": "FOREST",
+    "0108": "FOREST",
+    "0109": "CLEAR",
+    "0110": "FOREST",
+    "0201": "CLEAR",
+    "0202": "CLEAR",
+    "0203": "FOREST",
+    "0204": "FOREST",
+    "0205": "FOREST",
+    "0206": "CLEAR",
+    "0207": "CLEAR",
+    "0208": "FOREST",
+    "0209": "CLEAR",
+    "0210": "CLEAR",
+    "0301": "CLEAR",
+    "0302": "FOREST",
+    "0303": "FOREST",
+    "0304": "CLEAR",
+    "0305": "FOREST",
+    "0306": "CLEAR",
+    "0307": "FOREST",
+    "0308": "CLEAR",
+    "0309": "FOREST",
+    "0310": "CLEAR",
+    "0401": "FOREST",
+    "0402": "CLEAR",
+    "0403": "FOREST",
+    "0404": "FOREST",
+    "0405": "FOREST",
+    "0406": "FOREST",
+    "0407": "CLEAR",
+    "0408": "CLEAR",
+    "0409": "FOREST",
+    "0410": "CLEAR",
+    "0501": "CLEAR",
+    "0502": "CLEAR",
+    "0503": "CLEAR",
+    "0504": "FOREST",
+    "0505": "FOREST",
+    "0506": "FOREST",
+    "0507": "FOREST",
+    "0508": "CLEAR",
+    "0509": "CLEAR",
+    "0510": "FOREST",
+    "0601": "FOREST",
+    "0602": "CLEAR",
+    "0603": "CLEAR",
+    "0604": "CLEAR",
+    "0605": "CLEAR",
+    "0606": "CLEAR",
+    "0607": "FOREST",
+    "0608": "CLEAR",
+    "0609": "CLEAR",
+    "0610": "CLEAR",
+    "0701": "CLEAR",
+    "0702": "CLEAR",
+    "0703": "FOREST",
+    "0704": "FOREST",
+    "0705": "FOREST",
+    "0706": "CLEAR",
+    "0707": "CLEAR",
+    "0708": "FOREST",
+    "0709": "FOREST",
+    "0710": "CLEAR",
+    "0801": "FOREST",
+    "0802": "CLEAR",
+    "0803": "CLEAR",
+    "0804": "CLEAR",
+    "0805": "FOREST",
+    "0806": "FOREST",
+    "0807": "FOREST",
+    "0808": "FOREST",
+    "0809": "FOREST",
+    "0810": "FOREST",
+    "0901": "CLEAR",
+    "0902": "FOREST",
+    "0903": "FOREST",
+    "0904": "CLEAR",
+    "0905": "FOREST",
+    "0906": "FOREST",
+    "0907": "CLEAR",
+    "0908": "CLEAR",
+    "0909": "FOREST",
+    "0910": "CLEAR",
+    "1001": "CLEAR",
+    "1002": "FOREST",
+    "1003": "CLEAR",
+    "1004": "FOREST",
+    "1005": "CLEAR",
+    "1006": "FOREST",
+    "1007": "CLEAR",
+    "1008": "CLEAR",
+    "1009": "FOREST",
+    "1010": "FOREST"
+  },
+  "roads": {
+    "road-1": {
+      "name": "Road 1",
+      "type": "ROAD",
+      "hexes": [
+        "0105",
+        "0205",
+        "0305",
+        "0405",
+        "0505",
+        "0605",
+        "0705",
+        "0805",
+        "0905",
+        "1005"
+      ]
+    },
+    "road-2": {
+      "name": "Road 2",
+      "type": "ROAD",
+      "hexes": [
+        "0105",
+        "0205",
+        "0305",
+        "0405",
+        "0505",
+        "0605",
+        "0705",
+        "0805",
+        "0905",
+        "1005"
+      ]
+    },
+    "road-3": {
+      "name": "Road 3",
+      "type": "ROAD",
+      "hexes": [
+        "0801",
+        "0802",
+        "0803",
+        "0804",
+        "0805",
+        "0806",
+        "0807",
+        "0808",
+        "0809",
+        "0810"
+      ]
+    },
+    "road-4": {
+      "name": "Road 4",
+      "type": "ROAD",
+      "hexes": [
+        "0501",
+        "0502",
+        "0503",
+        "0504",
+        "0505",
+        "0506",
+        "0507",
+        "0508",
+        "0509",
+        "0510"
+      ]
+    },
+    "road-5": {
+      "name": "Connector 5",
+      "type": "ROAD",
+      "hexes": [
+        "0402",
+        "0502"
+      ]
+    },
+    "road-6": {
+      "name": "Connector 6",
+      "type": "ROAD",
+      "hexes": [
+        "0801",
+        "0802"
+      ]
+    },
+    "road-7": {
+      "name": "Connector 7",
+      "type": "ROAD",
+      "hexes": [
+        "0707",
+        "0708"
+      ]
+    },
+    "road-8": {
+      "name": "Connector 8",
+      "type": "ROAD",
+      "hexes": [
+        "0508",
+        "0608"
+      ]
+    },
+    "road-9": {
+      "name": "Connector 9",
+      "type": "ROAD",
+      "hexes": [
+        "0107",
+        "0108"
+      ]
+    },
+    "road-10": {
+      "name": "Connector 10",
+      "type": "ROAD",
+      "hexes": [
+        "0408",
+        "0508"
+      ]
+    },
+    "road-11": {
+      "name": "Connector 11",
+      "type": "ROAD",
+      "hexes": [
+        "0206",
+        "0306"
+      ]
+    },
+    "road-12": {
+      "name": "Connector 12",
+      "type": "ROAD",
+      "hexes": [
+        "0601",
+        "0702"
+      ]
+    },
+    "road-13": {
+      "name": "Connector 13",
+      "type": "ROAD",
+      "hexes": [
+        "0804",
+        "0905"
+      ]
+    },
+    "road-14": {
+      "name": "Connector 14",
+      "type": "ROAD",
+      "hexes": [
+        "0208",
+        "0209"
+      ]
+    }
+  },
+  "rivers": {
+    "river-1": {
+      "name": "River 1",
+      "type": "STREAM",
+      "segments": [
+        "0601-0702"
+      ]
+    },
+    "river-2": {
+      "name": "River 2",
+      "type": "STREAM",
+      "segments": [
+        "0104-0105"
+      ]
+    },
+    "river-3": {
+      "name": "River 3",
+      "type": "STREAM",
+      "segments": [
+        "0301-0401"
+      ]
+    },
+    "river-4": {
+      "name": "River 4",
+      "type": "STREAM",
+      "segments": [
+        "0201-0302"
+      ]
+    }
+  }
+}

@@ -11,6 +11,8 @@
 
 ## 🧩 Model Architecture Overview
 
+More in [Documentation](docs/docs.md)
+
 The model is composed of the following conceptual components:
 
 1. **Tokenizer**  

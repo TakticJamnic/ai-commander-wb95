@@ -1,0 +1,54 @@
+{
+  "width": 10,
+  "height": 10,
+  "terrain": {
+    "FOREST": {
+        "move_cost": {"LIG": 1, "INF": 2, "WHL": 4, "TRA": 3, "ATV": 3, "AIR": 1}
+    },
+    "CLEAR": {
+        "move_cost": {"LIG": 1, "INF": 1, "WHL": 2, "TRA": 1, "ATV": 1, "AIR": 1}
+    },
+    "HILL": {
+        "move_cost": {"LIG": 1, "INF": 2, "WHL": 4, "TRA": 2, "ATV": 2, "AIR": 1}
+    },
+    "SWAMP": {
+        "move_cost": {"LIG": 1, "INF": 1, "WHL": 99, "TRA": 4, "ATV": 4, "AIR": 1}
+    },
+    "URBAN": {
+        "move_cost": {"LIG": 1, "INF": 1, "WHL": 2, "TRA": 2, "ATV": 2, "AIR": 1}
+    },
+    "VILLAGE": {
+        "move_cost": {"LIG": 1, "INF": 1, "WHL": 2, "TRA": 2, "ATV": 2, "AIR": 1}
+    },
+    "FOREST_ROAD": {
+        "move_cost": {"LIG": 0.5, "INF": 0.5, "WHL": 0.333, "TRA": 0.5, "ATV": 0.333, "AIR": 1}
+    },
+    "ROAD": {
+        "move_cost": {"LIG": 0.5, "INF": 0.5, "WHL": 0.333, "TRA": 0.5, "ATV": 0.333, "AIR": 1}
+    },
+    "MAIN_ROAD": {
+        "move_cost": {"LIG": 0.5, "INF": 0.5, "WHL": 0.333, "TRA": 0.5, "ATV": 0.333, "AIR": 1}
+    },
+  }
+  "hexes": {
+    "0101": {
+      "terrain": "forest",
+      "move_costs": {
+        "INF": 2,
+        "WHL": 3,
+        "TRA": 4,
+        "ATV": 2,
+        "AIR": 1
+      }
+    },
+    ...
+  },
+  "roads": {
+    "0101-0102": "local",
+    "0203-0303": "highway"
+  },
+  "waterways": {
+    "0202-0203": "stream",
+    "0404-0405": "river"
+  }
+}
