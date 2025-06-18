@@ -22,17 +22,11 @@ ROAD_STYLES = {
 
 RIVER_STYLE = {"color": "blue", "linewidth": 2.5, "linestyle": "-"}
 
-HEX_SIZE = 1.0  # Radius of hex
+HEX_SIZE = 1.0
 HEX_WIDTH = 2 * HEX_SIZE
-HEX_HEIGHT = math.sqrt(3) * HEX_SIZE  # wysokość heksa flat-top
+HEX_HEIGHT = math.sqrt(3) * HEX_SIZE
 
 # === HELPER FUNCTIONS ===
-
-# def hex_to_pixel_flat(col, row):
-#     x = HEX_WIDTH * (col - 1) + (HEX_WIDTH / 2 if row % 2 == 0 else 0)
-#     y = HEX_HEIGHT * (row - 1)
-#     return (x, y)
-
 def hex_to_pixel_flat(col, row, map_height):
     x = HEX_WIDTH * (col - 1) * 0.75
     y = HEX_HEIGHT * (map_height - row) + (HEX_HEIGHT / 2 if col % 2 == 1 else 0)
@@ -94,11 +88,9 @@ def get_edge_coords(h1, h2, map_height):
 
     edge_offset = HEX_SIZE * 0.5
 
-    # Oblicz pozycję punktu po środku wspólnej krawędzi
     mx = (x1 + x2) / 2
     my = (y1 + y2) / 2
 
-    # Wygeneruj małą linię prostopadłą do łączącej dwa środki
     perp_angle = angle + math.pi / 2
     dx_edge = (HEX_SIZE * 0.4) * math.cos(perp_angle)
     dy_edge = (HEX_SIZE * 0.4) * math.sin(perp_angle)
@@ -150,7 +142,6 @@ def visualise_map(json_path):
     plt.show()
 
 # === ENTRY POINT ===
-
 if __name__ == "__main__":
-    json_file = "generated/generated-map.json"  # Change if needed
+    json_file = "generated/generated-map.json"
     visualise_map(json_file)
