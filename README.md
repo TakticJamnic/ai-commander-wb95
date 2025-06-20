@@ -46,14 +46,16 @@ Generates valid and optimal moves based on previous layers and outputs the selec
 
 ```yaml
 ai-commander-wb95/
-├── tokenizer.py        # Tokenizer that parses WB95-style commands into model-ready tokens
-├── tensorizer.py       # Converts token sequences into numerical tensors
-├── example_dataset.py  # Generates and prints sample commands and tokenized output
-├── vocab.json          # Vocabulary mapping tokens to unique IDs
-├── dataset.py          # PyTorch Dataset class for loading training data
-├── model/              # Model architecture (planned or in development)
-├── data/               # Placeholder for training/validation data
-└── README.md
+├── docs/                  # Project documentation in Markdown format
+├── src/
+│   └── ai_commander/      # Main source code package
+│       ├── tokenizer.py         # Parses WB95-style commands into token sequences
+│       ├── maps/                # Map-related utilities and visualizer
+│       │   ├── visualise_map.py     # Map rendering with interactive path recording
+│       │   └── movement_graph.py    # Graph construction from terrain and road data
+└── tests/
+    ├── generated/             # Auto-generated assets (e.g. maps, path logs, etc.)
+    └── sources/               # Prepared test assets (e.g. maps, path logs, etc.)
 ```
 
 ---

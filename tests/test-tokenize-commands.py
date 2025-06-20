@@ -1,7 +1,7 @@
 from ai_commander.tokenizer import Wb95Tokenizer
 
 # Load tokenizer
-tokenizer = Wb95Tokenizer("vocab.json")
+tokenizer = Wb95Tokenizer("tests/generated/test_tokenizer_vocab.json")
 
 # Load example commands
 # with open("examples/example_commands.txt", "r", encoding="utf-8") as f:

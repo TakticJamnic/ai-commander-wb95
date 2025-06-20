@@ -9,7 +9,7 @@ import matplotlib
 matplotlib.use('TkAgg')  # lub 'Qt5Agg', zależnie co masz zainstalowane
 
 TOKEN_COLOR = "red"
-OUTPUT_PATHS_FILE = Path("generated/paths.jsonl")
+OUTPUT_PATHS_FILE = Path("tests/generated/clever_aisha/generated_map.json")
 
 # === CONFIGURATION ===
 TERRAIN_COLORS = {
@@ -266,5 +266,5 @@ class InteractionState:
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
-    json_file = "generated/generated-map.json"
+    json_file = "tests/generated/generated-map.json"
     visualise_map(json_file)

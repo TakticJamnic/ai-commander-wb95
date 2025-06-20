@@ -2,8 +2,8 @@ import os
 import json
 from ai_commander.tokenizer import Wb95Tokenizer
 
-INPUT_PATH = "examples/example_commands.txt"
-OUTPUT_PATH = "vocab.json"
+INPUT_PATH = "tests/sources/example_wb95_commands.txt"
+OUTPUT_PATH = "tests/generated/test_tokenizer_vocab.json"
 
 def build_vocab_from_examples(input_path):
     with open(input_path, "r", encoding="utf-8") as f:
