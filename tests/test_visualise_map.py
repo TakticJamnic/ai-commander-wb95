@@ -266,5 +266,5 @@ class InteractionState:
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
-    json_file = "tests/generated/generated-map.json"
+    json_file = "tests/generated/clever_aisha/map.json"
     visualise_map(json_file)

@@ -95,7 +95,7 @@ class MovementCostGraphBuilder:
         output_file = os.path.join(output_base, "mcg.json")
         with open(output_file, "w") as f:
             json.dump(graph, f, indent=2)
-            print(f"✅ MCG graph saved to ➡️ {output_file}")
+            print(f"✅ New MCG saved to ➡️ {output_file}")
             return graph    
         
 

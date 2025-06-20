@@ -153,5 +153,5 @@ class RandomMapGenerator:
         with open(output_file, "w") as f:
             json.dump(map_data, f, indent=2)
 
-        print(f"✅ Map saved to ➡️ {output_file}")
+        print(f"✅ New map saved to ➡️ {output_file}")
         return run_id, map_data
