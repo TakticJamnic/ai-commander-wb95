@@ -43,15 +43,18 @@ Generates valid and optimal moves based on previous layers and outputs the selec
 ---
 
 ## 📦 Repository Structure
+
+```yaml
 ai-commander-wb95/
-├── tokenizer.py # Tokenizer that parses WB95-style commands into model-ready tokens
-├── tensorizer.py # Converts token sequences into numerical tensors
-├── example_dataset.py # Generates and prints sample commands and tokenized output
-├── vocab.json # Vocabulary mapping tokens to unique IDs
-├── dataset.py # PyTorch Dataset class for loading training data
-├── model/ # Model architecture (planned or in development)
-├── data/ # Placeholder for training/validation data
+├── tokenizer.py        # Tokenizer that parses WB95-style commands into model-ready tokens
+├── tensorizer.py       # Converts token sequences into numerical tensors
+├── example_dataset.py  # Generates and prints sample commands and tokenized output
+├── vocab.json          # Vocabulary mapping tokens to unique IDs
+├── dataset.py          # PyTorch Dataset class for loading training data
+├── model/              # Model architecture (planned or in development)
+├── data/               # Placeholder for training/validation data
 └── README.md
+```
 
 ---
 
